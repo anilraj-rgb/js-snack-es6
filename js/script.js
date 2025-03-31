@@ -90,3 +90,19 @@ rng =(min, max) => {
   // creo un nuovo array vuoto
   const faultyTeams = [];
   
+  // per ogni oggetto dell'array oginale, inserisco un oggetto vuoto nel nuovo array
+for(i=0; i<teams.length; i++){
+    faultyTeams.push({});
+    // ciclo per il numero di proprietà degli oggetti dell'array originale meno uno
+    // inserisco nomi e falli nelle poprietà di ogni oggetto del nuovo array
+    for(let j=0; j<Object.keys(teams).length - 1; j++){
+      faultyTeams[i].teamName = teams[i].teamName;
+      faultyTeams[i].faultNum = teams[i].faultNum;
+    }  
+  }
+  
+  // stampo in console gli array
+  console.log(teams);
+  console.log(faultyTeams);
+
+  
