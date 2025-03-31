@@ -46,3 +46,32 @@ console.log(lighter.brand + " è la bici più leggera (" + lessWeight + " gr).")
 // Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0. 
 // Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”. 
 // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+// creo l'array
+const teams = [
+    {
+      teamName: "Team 1",
+      points: 0,
+      faultNum: 0
+    },
+    {
+      teamName: "Team 2",
+      points: 0,
+      faultNum: 0
+    },
+    {
+      teamName: "Team 3",
+      points: 0,
+      faultNum: 0
+    },
+    {
+      teamName: "Team 4",
+      points: 0,
+      faultNum: 0
+    },
+    {
+      teamName: "Team 5",
+      points: 0,
+      faultNum: 0
+    },
+  ]
